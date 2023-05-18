@@ -1,0 +1,70 @@
+[
+    {
+        "id": "1",
+        "department": "customer_service",
+        "sub_departments": [
+            {
+                "subid": "1a",
+                "name": "support",
+                "parent": "customer_service"
+            },
+            {
+                "subid": "1b",
+                "name": "customer_success",
+                "parent": "customer_service"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "department": "design",
+        "sub_departments": [
+            {
+                "subid": "2a",
+                "name": "graphic_design",
+                "parent": "design"
+            },
+            {
+                "subid": "2b",
+                "name": "product_design",
+                "parent": "design"
+            },
+            {
+                "subid": "2c",
+                "name": "product_design",
+                "parent": "web_design"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "department": "Agriculture & Fishing",
+        "sub_departments": [
+            {
+                "subid": "3a",
+                "name": "Agriculture",
+                "parent": "Agriculture & Fishing"
+            },
+            {
+                "subid": "3b",
+                "name": "Crops",
+                "parent": "Agriculture & Fishing"
+            },
+            {
+                "subid": "3c",
+                "name": "Framing Animals & Livestock",
+                "parent": "Agriculture & Fishing"
+            },
+            {
+                "subid": "3d",
+                "name": "Fishery & Aquaculture",
+                "parent": "Agriculture & Fishing"
+            },
+            {
+                "subid": "3e",
+                "name": "Ranching",
+                "parent": "Agriculture & Fishing"
+            }
+        ]
+    }
+]
